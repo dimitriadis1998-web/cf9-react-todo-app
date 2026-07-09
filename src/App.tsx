@@ -1,4 +1,6 @@
 import Layout from "./shared/layout/Layout"
+import {TodoApp} from "./features/todo";
+
 
 function App() {
 
@@ -6,7 +8,7 @@ function App() {
   return (
     <>
       <Layout>
-        <h1>Content</h1>
+        <TodoApp/>
       </Layout>
 
     </>
