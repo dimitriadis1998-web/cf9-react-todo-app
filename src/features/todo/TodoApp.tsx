@@ -18,7 +18,7 @@ const TodoApp = () => {
     }
 
 
-
+    console.log(todos);
     return (
         <>
             <div className="max-w-sm mx-auto pb-12">
